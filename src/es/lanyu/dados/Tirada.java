@@ -14,7 +14,9 @@ public class Tirada {
 	protected void setCarasVistas(int[] carasVistas) {
 		this.carasVistas = carasVistas;
 	}
+	
 	// hacer tirada
+	
 	public int[] hacerTirada(String tipoTirada) { 
 		String[] tirada = tipoTirada.split("");
 		int numeroLanzamientos = Integer.parseInt(tirada[0]);
